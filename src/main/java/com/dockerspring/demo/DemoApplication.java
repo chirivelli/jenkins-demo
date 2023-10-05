@@ -11,7 +11,7 @@ public class DemoApplication {
 
 	@GetMapping("message")
 	public String message() {
-		return "Jenkins Docker SpringBoot App Demo";
+		return "Jenkins Docker publish + SpringBoot App Demo";
 	}
 
 	public static void main(String[] args) {
